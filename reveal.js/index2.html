@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>
+                        ## SCHEME 
+                        Programlama Dili
+                     
+					</textarea>
+				</section>
+				<section>
+					<section><p>Scheme nedir?</p>
+                    <img src="logo.png"/>
+                    </section>
+                    
+					<section data-transition="convex">
+						<p class="fragment fade-in-then-semi-out">Scheme çok anlamlı,şeffaf,küçük ve kolay bir şekilde yazılabilecek bir programlama dilidir. </p>
+						<p class="fragment fade-in-then-fade-in-then-semi-out">Scheme problemlerin çözümünde algoritmik yaklaşımı destekler.Bu yüzdendir ki çoğu üniversitede Bilgisayara Giriş dersi olarak verilmektedir.</p>
+					</section>
+					<section data-transition="convex">
+						<p class="fragment fade-in-then-semi-out">Birçok programlama stil ve paradigmalarını desteklediği gibi fonksiyonel ve nesneye yönelik programlama stillerini de destekler.</p>
+						<p class="fragment fade-in-then-fade-in-then-semi-out">Scheme, olabildiğince küçük ve sade olarak tasarlanmıştır.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						Tarihi
+					</section>
+                    <section>
+                        <p class="fragment fade-in-then-semi-out">1975 yılında, Guy Steele ve Geral Sussman MIT laboratuarında şeffaf ve sade semantiği olan bir dil tasarlamak istemekteler.</p>
+                        <p class="fragment fade-in-then-semi-out">Bu hedef doğrultusunda Scheme meydana geliyor.</p>
+					</section>
+					<section>
+						<p class="fragment fade-in-then-semi-out">Scheme,dünyada ilk fonksiyonel programlama dili olan Lambda Calculus’tan etkilenmiştir.</p>
+                        <p class="fragment fade-in-then-semi-out">Syntax'ı LISP'e benzemektedir.LISP'e göre daha sade,şeffaf ve modern olarak tasarlanmak istenmiştir.</p>
+					</section>
+                </section>
+                
+				<section>
+				    <section>
+					   Sceheme Kullanım Alanları
+				    </section>
+                        
+                    <section data-markdown>
+                        <p>Özellikleri</p>
+                        <script type="text/template">
+                            - Öğretim aracı olarak <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Script yazılımları için <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Genişletilmiş dil olarak uygulamaların içinde gömülü <!-- .element: class="fragment" data-fragment-index="3" -->
+                            - Yeni dillerin oluşumu için <!-- .element: class="fragment" data-fragment-index="4" -->
+                        </script>
+                    </section>
+
+                    <section>
+                        <p class="fragment fade-in-then-semi-out">Scheme programlama dili çoğu zaman oku-hesapla-yazdır döngüsü (Read-evaluate-print Loop) REPL ile anılır.</p>
+                    </section>
+                    
+                    <section data-markdown>
+                        <script type="text/template">
+                            - Okumak(Read) = Bir sonraki Scheme ifadesini okur <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Hesapla (Evaulate) = İfadenin sonucunu hesaplar <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Yazdır (Print) = Sonucu ekrana yazdır <!-- .element: class="fragment" data-fragment-index="3" -->
+                        </script>
+                    </section>
+                    
+                    
+                </section>
+                
+                <section>
+                    
+                    <section>
+                    Kod Örnekleri
+                    </section>
+                    
+                    <section>
+                        <p>Hesap Makinesi</p>
+                        <img src="toplama.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>4 İşlem </p>
+                        <img src="4islem.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>İç içe işlemler</p>
+                        <img src="parantez.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>Liste oluşturma</p>
+                        <img src="liste.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>Değişken tanımlama</p>
+                        <img src="degiskentanimlama.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>Fonksiyon tanımlama</p>
+                        <img src="fonksiyontanimlama.png"/>
+                        <img src="fonk2.png"/>
+                        <img src="fonk3.png"/>
+                    </section>
+                    
+                    <section>
+                        <p>Eşitlik kontrolü</p>
+                        <img src="esitlik.png"/>
+                        <img src="esitlik2.png"/>
+                    </section>
+                    
+                </section>
+                
+                <section>
+                    <p>Dinlediğiniz için teşekkürler</p>
+                    <p>Mert Özan</p>
+                    <p>160255045</p>
+                
+                </section>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
